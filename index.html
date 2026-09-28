@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>HOLIDAY BIER KYOTO | ACCESS</title>
+
+<title>HOLIDAY BIER | ACCESS</title>
 
 <style>
+
 body{
   margin:0;
   padding:0;
@@ -22,6 +24,8 @@ body{
   text-align:center;
 }
 
+/* HEADER */
+
 .logo{
   font-size:24px;
   font-weight:700;
@@ -31,12 +35,21 @@ body{
 .subtitle{
   font-size:13px;
   color:#aaa;
+  margin-bottom:8px;
+}
+
+.page-title{
+  font-size:12px;
+  color:#777;
+  letter-spacing:0.12em;
   margin-bottom:40px;
 }
 
+/* STUDIO CARD */
+
 .studio{
   border:1px solid #444;
-  padding:24px 18px;
+  padding:26px 18px;
   margin-bottom:22px;
   border-radius:14px;
   background:#171717;
@@ -45,15 +58,32 @@ body{
 .studio-title{
   font-size:17px;
   font-weight:600;
-  margin-bottom:12px;
+  margin-bottom:5px;
 }
+
+.studio-title-jp{
+  font-size:12px;
+  color:#999;
+  margin-bottom:18px;
+}
+
+/* ADDRESS */
 
 .address{
   font-size:13px;
   line-height:1.8;
   color:#ccc;
-  margin-bottom:18px;
+  margin-bottom:8px;
 }
+
+.address-jp{
+  font-size:12px;
+  line-height:1.8;
+  color:#888;
+  margin-bottom:20px;
+}
+
+/* BUTTONS */
 
 .button{
   display:block;
@@ -66,64 +96,176 @@ body{
   font-weight:600;
 }
 
+.button + .button{
+  margin-top:10px;
+}
+
+.button-booking{
+  background:transparent;
+  color:#f5f5f5;
+  border:1px solid #666;
+}
+
+/* OSAKA BOOKING NOTE */
+
+.booking-note{
+  margin-top:14px;
+  font-size:11px;
+  line-height:1.7;
+  color:#888;
+}
+
+/* GENERAL NOTE */
+
 .note{
-  margin-top:30px;
+  margin-top:32px;
   font-size:12px;
   line-height:1.8;
   color:#999;
 }
+
+.note-jp{
+  margin-top:4px;
+  font-size:11px;
+  line-height:1.8;
+  color:#777;
+}
+
+/* FOOTER */
 
 footer{
   margin-top:36px;
   font-size:11px;
   color:#666;
 }
+
 </style>
 </head>
+
 
 <body>
 
 <div class="container">
 
-  <div class="logo">HOLIDAY BIER KYOTO</div>
-  <div class="subtitle">KYOTO / OSAKA STUDIO</div>
+  <!-- HEADER -->
+
+  <div class="logo">
+    HOLIDAY BIER
+  </div>
+
+  <div class="subtitle">
+    KYOTO / OSAKA TATTOO STUDIO
+  </div>
+
+  <div class="page-title">
+    ACCESS / アクセス
+  </div>
+
+
+  <!-- KYOTANGO / KUMIHAMA STUDIO -->
 
   <div class="studio">
-    <div class="studio-title">京丹後 / 久美浜スタジオ</div>
+
+    <div class="studio-title">
+      KYOTANGO / KUMIHAMA STUDIO
+    </div>
+
+    <div class="studio-title-jp" lang="ja">
+      京丹後 / 久美浜スタジオ
+    </div>
+
     <div class="address">
+      Seaside Villa Kumihama 3H<br>
+      1320-5 Minatomiya, Kumihama-cho<br>
+      Kyotango, Kyoto 629-3422<br>
+      JAPAN
+    </div>
+
+    <div class="address-jp" lang="ja">
       〒629-3422<br>
       京都府京丹後市久美浜町湊宮1320-5<br>
       シーサイドビラ久美浜 3H
     </div>
 
-    <a class="button"
+    <a
+      class="button"
       href="https://www.google.com/maps/search/?api=1&query=京都府京丹後市久美浜町湊宮1320-5%20シーサイドビラ久美浜%203H"
-      target="_blank">
-      Google Map
+      target="_blank"
+      rel="noopener noreferrer">
+      OPEN IN GOOGLE MAPS
     </a>
+
   </div>
 
+
+  <!-- OSAKA / TENMA STUDIO -->
+
   <div class="studio">
-    <div class="studio-title">大阪 / 天満スタジオ</div>
+
+    <div class="studio-title">
+      OSAKA / TENMA STUDIO
+    </div>
+
+    <div class="studio-title-jp" lang="ja">
+      大阪 / 天満スタジオ
+    </div>
+
     <div class="address">
+      4F, 5-4-11 Tenjinbashi<br>
+      Kita-ku, Osaka 530-0041<br>
+      JAPAN
+    </div>
+
+    <div class="address-jp" lang="ja">
       〒530-0041<br>
       大阪府大阪市北区天神橋5丁目4-11<br>
       4階
     </div>
 
-    <a class="button"
+    <a
+      class="button"
       href="https://www.google.com/maps/search/?api=1&query=大阪府大阪市北区天神橋5丁目4-11%204階"
-      target="_blank">
-      Google Map
+      target="_blank"
+      rel="noopener noreferrer">
+      OPEN IN GOOGLE MAPS
     </a>
+
+    <a
+      class="button button-booking"
+      href="https://forms.gle/SAznJFUPXS8WDwMW6"
+      target="_blank"
+      rel="noopener noreferrer">
+      REQUEST A TATTOO APPOINTMENT
+    </a>
+
+    <div class="booking-note">
+      Osaka appointments are available for approximately one week each month.<br>
+      Please submit an appointment request before your visit.<br><br>
+
+      <span lang="ja">
+        大阪での施術は月に約1週間です。<br>
+        ご来店前に予約リクエストをお送りください。
+      </span>
+    </div>
+
   </div>
+
+
+  <!-- VISIT NOTE -->
 
   <div class="note">
     Please check studio availability before your visit.
   </div>
 
+  <div class="note-jp" lang="ja">
+    ご来店前に営業日をご確認ください。
+  </div>
+
+
+  <!-- FOOTER -->
+
   <footer>
-    © HOLIDAY BIER KYOTO
+    © HOLIDAY BIER
   </footer>
 
 </div>
